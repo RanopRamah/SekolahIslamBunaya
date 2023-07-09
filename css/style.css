@@ -42,7 +42,7 @@
 /* Height for devices larger than 992px */
 
 .header-title {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 800;
     color: #43755A;
 }
@@ -265,7 +265,7 @@
 
 .copyright {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
@@ -517,8 +517,8 @@
         color: #47785D;
     }
     .copyright {
-        font-size: 11px;
-        font-weight: 400;
+        font-size: 12px;
+        font-weight: 500;
         line-height: 17px;
         letter-spacing: 0em;
         text-align: left;
