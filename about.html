@@ -17,9 +17,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="css/about.css">
+    <!-- <link rel="stylesheet" href="css/swiper.css"> -->
 </head>
 <style>
     body {
@@ -65,7 +66,7 @@
                         <a class="nav-link text-black fw-bold me-4" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" href="#">Programs</a>
+                        <a class="nav-link text-black" href="program.html">Programs</a>
                     </li>
                 </ul>
 
@@ -105,7 +106,7 @@
                     <span>Visi & <br>Misi</span>
                 </div>
                 <div class="col text-end">
-                    <span>01</span></div>
+                    <span class="number">01</span></div>
             </div>
 
             <div class="row">
@@ -120,7 +121,9 @@
                         
                        3. Menghasilkan lulusan berkualitas yang sholeh, sehat, cerdas, dan kreatif. Hingga memiliki kematangan yang sikap mental, kemandirian serta kemampuan dasar yang cukup untuk jenjang pendidikan berikutnya.</span>
                 </div>
-                <div class="col-md-6 img-visi"><img src="assets/islamkid.png" alt="" height="700"></div>
+                <div class="visi-img">
+                    <div class="col-md-6 img-visi"><img src="assets/islamkid.png" alt="" height="700"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -129,10 +132,10 @@
         <div class="container pt-5">
             <div class="row sistem-title pt-5">
                 <div class="col text-start">
-                    <span>Sistem <br>Pendidikan</span>
+                    <span>Sistem Pendidikan</span>
                 </div>
                 <div class="col text-end">
-                    <span>02</span></div>
+                    <span class="number">02</span></div>
             </div>
             <div class="row">
                 <div class="col-md-6 sistem-text">
@@ -144,18 +147,80 @@
                         2. Sistem pembelajaran yang diterapkan di TKI Bunaya adalah pendidikan yang menekankan kepada pembentukan karakter yang dilandasi dengan tuntunan Al-Quran.
                     </p>
                 </div>
-                <div class="col-md-6 sistem-img text-end"><img src="assets/sistem-photo.png" height="400" alt=""></div>
+                <div class="sistem-img">
+                    <div class="col-md-6 text-end"><img src="assets/sistem-photo.png" height="400" alt=""></div>
+                </div>
             </div>
         </div>
 
 
     </section>
 
+    <section class="tenaga">
+        <div class="container ">
+            <div class="row ">
+                <div class="col">
+                    <h1 class="tenaga-title">Tenaga Pengajar</h1>
+                    <p class="tenaga-text">Untuk mendukung perkembangan anak Bunaya telah menyediakan tenaga pengajar yang memiliki akhlaq yang baik sebagai teladan untuk anak-anak.</p>
+                </div>
+                <div class="tenaga-img">
+                    <div class="col text-end"><img src="assets/guru2.png" height="400" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+
+
+    <footer class="bg-light text-center text-lg-start pt-5" id="footer">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <img class="mb-5" src="assets/logo.png" alt="">
+
+                    <p class="footer-text">
+                        Sekolah impian (SI) adalah intitusi yang tumbuh dari cita-cita luhur para pendiri yang ingin meraih Ridlo Allah Taala dengan cara berdakwah melalui jalur pendidikan. Metode yang digunakan adalah mendidik para santri/siswa/i menjadi seorang penghafal Al-Quran
+                        dan sekaligus mendidik mereka menjadi seorang ahli dalam bidang teknologi informasi (IT).
+                    </p>
+                    <p class="copyright">© Copyright Yayasan Dharma Bakti Bunaya | Designed by LKYZ.Studio & Powered by Raffi Nauval</p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 contact ps-5">
+                    <h5 class="contact-title mb-4">Kontak kami</h5>
+                    <div class="d-flex justify-content-start">
+                        <div class="row">
+                            <div class="col-sm-4 me-2 text-start"><i class="fab fa-whatsapp"></i><span class="social">  0812-8225-1336</span></div>
+                            <div class="col-sm-4 me-2 text-start"><i class="fab fa-instagram"></i> <span class="social">SDIT BUNAYA</span></div>
+                            <div class="col-sm-4 me-2 text-start"><i class="fab fa-instagram"></i> <span class="social">TKIT BUNAYA</span></div>
+                            <div class="col-sm-4 me-2 text-start"><i class="fab fa-youtube"></i> <span class="social">SIT BUNAYA</span></div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+
+        <!-- Copyright -->
+    </footer>
 
 </body>
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+<script src="js/swiper.js"></script>
 
 </html>

@@ -39,13 +39,21 @@ body {
     top: 110px;
 }
 
+.visi .number {
+    display: none;
+}
+
+.sistem .number {
+    display: none;
+}
+
 .visi-title {
-    font-size: 76px;
+    font-size: 56px;
     font-weight: 800;
     line-height: 92px;
     letter-spacing: 0em;
     color: #43755A;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .visi-text {
@@ -55,11 +63,15 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: #43755A;
+    margin-bottom: 250px;
 }
 
-.img-visi {
-    position: relative;
-    bottom: 90px;
+.number {
+    display: contents;
+}
+
+.visi-img {
+    display: none;
 }
 
 .sistem {
@@ -68,15 +80,48 @@ body {
 }
 
 .sistem-title {
-    font-size: 76px;
+    font-size: 56px;
     font-weight: 800;
-    line-height: 92px;
     letter-spacing: 0em;
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .sistem-text {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.sistem-img {
+    display: none;
+}
+
+.sistem-img img {
+    position: relative;
+    bottom: 150px;
+    border-radius: 20px;
+    box-shadow: 11px 12px 18px 0px #00000040;
+}
+
+.tenaga {
+    padding-top: 90px;
+    margin-top: -10px;
+    background-color: #43755A;
+    height: 500px;
+}
+
+.tenaga-title {
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tenaga-text {
+    font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -85,9 +130,215 @@ body {
     color: white;
 }
 
-.sistem-img img {
-    position: relative;
-    bottom: 150px;
-    border-radius: 20px;
-    box-shadow: 11px 12px 18px 0px #00000040;
+.tenaga-img {
+    display: none;
+}
+
+.tenaga-img img {
+    box-shadow: -11px 4px 16px 0px #00000040;
+    border-radius: 40px;
+}
+
+
+/* Footer */
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+.contact-title {
+    color: #47785D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact i {
+    color: #47785D;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.social {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+@media (min-width: 992px) {
+    .header-about {
+        background-image: url(../assets/back-about.png);
+        height: 450px;
+        background-position-y: -140px;
+    }
+    .about-yayasan {
+        padding-top: 163px;
+        margin-top: -300px;
+        height: 506px;
+        background: #39674EED;
+        box-shadow: 0px 28px 35px -10px #0000007D;
+    }
+    .yayasan-text {
+        position: relative;
+        bottom: 80px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .adfaa {
+        padding-right: 80px;
+    }
+    .visi {
+        position: relative;
+        top: 110px;
+    }
+    .visi-title {
+        font-size: 76px;
+        font-weight: 800;
+        line-height: 92px;
+        letter-spacing: 0em;
+        color: #43755A;
+        margin-bottom: 80px;
+    }
+    .visi-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #43755A;
+    }
+    .number {
+        display: contents;
+    }
+    .visi-img {
+        display: contents;
+    }
+    .img-visi {
+        position: relative;
+        bottom: 90px;
+    }
+    .sistem {
+        background-color: #43755A;
+        margin-top: -70px;
+    }
+    .sistem-title {
+        font-size: 76px;
+        font-weight: 800;
+        line-height: 92px;
+        letter-spacing: 0em;
+        color: white;
+        margin-bottom: 80px;
+    }
+    .sistem-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .sistem-img {
+        display: contents;
+    }
+    .sistem-img img {
+        position: relative;
+        bottom: 150px;
+        border-radius: 20px;
+        box-shadow: 11px 12px 18px 0px #00000040;
+    }
+    .tenaga {
+        padding-top: 0px;
+        background-color: #43755A;
+        height: 500px;
+    }
+    .tenaga-title {
+        color: white;
+        font-size: 76px;
+        font-weight: 800;
+        line-height: 92px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .tenaga-text {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .tenaga-img {
+        display: contents;
+    }
+    .tenaga-img img {
+        box-shadow: -11px 4px 16px 0px #00000040;
+        border-radius: 40px;
+    }
+    /* Footer */
+    .footer-text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+    .copyright {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+    .contact-title {
+        color: #47785D;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .contact i {
+        color: #47785D;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .social {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+    .sistem .number {
+        display: contents;
+    }
+    .visi .number {
+        display: contents;
+    }
 }
