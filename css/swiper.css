@@ -1,19 +1,7 @@
- ::-webkit-scrollbar {
-    width: 1.3rem;
-}
-
- ::-webkit-scrollbar-thumb {
-    border-radius: 1rem;
-    background: #797979;
-    transition: all 0.5s ease-in-out;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #222224;
-}
-
- ::-webkit-scrollbar-track {
-    background: #f9f9f9;
+.container {
+    max-width: 124rem;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
 .text-center {
@@ -49,9 +37,11 @@
 }
 
 .tranding-slide {
-    width: 37rem;
-    height: 42rem;
+    width: 20rem;
+    height: 32rem;
     position: relative;
+    background: #64AA84;
+    border-radius: 20px;
 }
 
 @media (max-width:500px) {
@@ -151,7 +141,7 @@
 }
 
 .tranding-slider-control .slider-arrow {
-    background: var(--white);
+    background: white;
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
@@ -163,6 +153,15 @@
 .tranding-slider-control .slider-arrow ion-icon {
     font-size: 2rem;
     color: #222224;
+}
+
+.tranding-slider-control .slider-arrow ion-icon :hover {
+    font-size: 2rem;
+    color: white;
+}
+
+.tranding-slider-control .slider-arrow:hover {
+    background-color: rgb(225, 156, 8);
 }
 
 .tranding-slider-control .slider-arrow::after {

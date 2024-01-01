@@ -1,0 +1,214 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header-about {
+    background-image: url(../assets/tenaga-bg.png);
+    height: 300px;
+    background-position-y: -140px;
+}
+
+.wa-button {
+    width: 100%;
+    border: 2px solid #47785D;
+    color: #47785D;
+    font-weight: 500;
+    text-align: center;
+}
+
+.for-bg {
+    background-image: url('../assets/bg-body.png');
+}
+
+.header-title {
+    font-weight: 800;
+    font-size: 25px;
+    width: 75%;
+}
+
+.about-tk {
+    backdrop-filter: blur(5px);
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 93px;
+    margin-top: -170px;
+    height: 266px;
+    background: #47785d8d !important;
+    box-shadow: 0px 28px 35px -10px #0000007D !important;
+}
+
+.sd-title {
+    position: relative;
+    bottom: 30px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0em;
+}
+
+
+/* .adfaa {
+    padding-right: 80px;
+} */
+
+
+/* .about-yayasan img {
+    position: relative;
+    bottom: 30px;
+} */
+
+.head-title {
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+}
+
+.first-paragraph {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.perbandingan-list {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Galley TKIT */
+
+.gallery-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.gallery img {
+    width: 350px;
+    height: 200px;
+}
+
+
+/* Footer */
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+.contact-title {
+    color: #47785D;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact i {
+    color: #47785D;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.social {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #47785D;
+}
+
+@media (min-width: 992px) {
+    .header-about {
+        background-image: url(../assets/bg-pengajar.png);
+        height: 450px;
+        background-position-y: -170px;
+    }
+    .header-title {
+        font-weight: 800;
+        font-size: 60px;
+        width: 55%;
+    }
+    .wa-button {
+        width: 150px;
+        border: 2px solid #47785D;
+        color: #47785D;
+        font-weight: 500;
+        text-align: center;
+    }
+    .about-tk {
+        padding-top: 163px;
+        margin-top: -300px;
+        height: 506px;
+        background: #39674EED;
+        box-shadow: 0px 28px 35px -10px #0000007D;
+        backdrop-filter: blur(5px);
+    }
+    /* Gallery SDIT TKIT */
+    .gallery img {
+        width: 600px;
+        height: 350px;
+    }
+    /* Footer */
+    .footer-text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+    .copyright {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+    .contact-title {
+        color: #47785D;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .contact i {
+        color: #47785D;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .contact {
+        padding-left: 60px;
+    }
+    .social {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #47785D;
+    }
+}
