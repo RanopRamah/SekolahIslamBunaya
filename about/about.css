@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+.for-bg {
+    background-image: url('../assets/bg-body.png');
+}
+
 .header-about {
     background-image: url(../assets/back-about.png);
     height: 450px;
