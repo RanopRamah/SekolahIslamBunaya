@@ -111,6 +111,7 @@
     .gallery img {
         width: 350px;
         height: 200px;
+        box-shadow: 11px 12px 18px 0px #00000040;
     }
     /* Footer */
     
@@ -242,6 +243,7 @@
         .gallery img {
             width: 400px;
             height: 250px;
+            box-shadow: 11px 12px 18px 0px #00000040;
         }
         .alur-title {
             color: white;
